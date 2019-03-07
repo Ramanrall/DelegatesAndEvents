@@ -17,7 +17,7 @@ namespace DelegatesAndEvents
     public class DelegateExercises
     {
         public delegate void MyDelegate();
-        void Method1() {
+        void Method1(int i) {
 
 
             Console.WriteLine("Method1");
